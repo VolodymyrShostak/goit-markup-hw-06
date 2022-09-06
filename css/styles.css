@@ -633,13 +633,20 @@ background-color: var(--primary-text-color);
     line-height: 1.88;
     letter-spacing: 0.06em;
    margin-left: 14px;
-
+align-items: center;
+text-align: center;
+display: flex;
+padding: 13px 28px;
 
 
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
    
+}
+.icon-send {
+    margin-left: 10px;
+    fill: currentColor;
 }
     
 
