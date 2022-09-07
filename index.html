@@ -783,8 +783,15 @@
                             <textarea class="form-input-comment" name="feedback" id="feedback" rows="5" placeholder="Введіть текст"></textarea></div>
                             
                             <div class="checkbox"> 
-                                <input class="checkbox-input" type="checkbox" name="checkbox" id=""/>
-                                <label class="form-comment" for="">Погоджуюсь з розсилкою та приймаю  Умови договору</label>
+                                 <label class="form-comment" for="">
+                                    <span class="modal-check">
+                                <input class="checkbox-input" type="checkbox" name="accept" id="user-accept"/>
+                                    <svg class="icon-checked">
+                                    <use href="./images/symbol-defs.svg#icon-icon-check"></use>
+                                   </svg>
+                               </span>
+                               <span> Погоджуюсь з розсилкою та приймаю</span></label>
+                                <a href="#" class="deal">   Умови договору</a>
                             </div>
                            
                            <div class="submit-field">
