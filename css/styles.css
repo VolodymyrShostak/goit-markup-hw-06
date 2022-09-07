@@ -334,6 +334,7 @@ width: 448px;
 height: 40px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
+ outline: transparent;
 
  transition-property: border-color;
     transition-duration: 250ms;
@@ -362,8 +363,10 @@ border-radius: 4px;
 width: 448px;
     height: 120px;
      resize: none;
+     outline: transparent;
 }
-.form-input-comment:hover {
+.form-input-comment:hover,
+.form-input-comment:focus {
     border-color: var(--accent-color);
 }
 .form-input:focus + .icon-form {
@@ -386,10 +389,12 @@ width: 448px;
     pointer-events: none;
 
 }
-.icon-form:hover 
+
+
 .submit-field {
-    display: flex;
-    bottom: 0;
+    position: absolute;
+    bottom: -70px;
+    left: 120px;
 }
 .submit {
 background: #188CE8;
